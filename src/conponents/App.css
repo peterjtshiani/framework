@@ -1,0 +1,289 @@
+/* ####################################### */
+
+
+/* Heasder */
+
+
+/* ####################################### */
+
+
+/* .App {
+    width: 1440px;
+} */
+
+.logo {
+    width: 100px;
+}
+
+.header li {
+    padding: 5px;
+    display: inline-block
+}
+
+.search {
+    position: relative;
+    left: 70%;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 150%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+form.search button {
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 150%;
+    cursor: pointer;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#list,
+#sign,
+#log {
+    position: relative;
+    left: 45%;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+#list {
+    text-decoration-line: none;
+    border: 1px solid grey;
+}
+
+.cover {
+    background-image: url("bg.png");
+    background-size: 100%;
+    text-align: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    ;
+}
+
+#Location,
+#plan,
+#look {
+    width: 250px;
+    padding: 10px;
+    height: 50px;
+    font-size: 15px;
+    color: grey;
+}
+
+#look {
+    background-color: #32CD32;
+}
+
+.Body {
+    text-align: center;
+}
+
+.col-sm-3 {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: bottom;
+    color: white;
+}
+
+.col-sm-3 p {
+    background-color: black;
+    width: 250px;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+}
+
+.cpt {
+    background-image: url("Cape-Town.jpg");
+}
+
+.jhb {
+    background-image: url("thumb.png");
+    background-size: 115%;
+}
+
+.dbn {
+    background-image: url("durban1.jpg");
+}
+
+.houses p {
+    font-size: 18px;
+}
+
+.venue1,
+.venue2,
+.venue3,
+.venue4,
+.venue5,
+.venue6 {
+    background-image: url("thumb.jpg");
+}
+
+.houses {
+    background-color: rgb(247, 239, 239);
+    padding-bottom: 60px;
+}
+
+.image-moves {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.aboutAgent {
+    position: absolute;
+    bottom: 10px;
+    text-align: left;
+    color: black
+}
+
+.aboutAgent h1 {
+    font-size: 25px;
+}
+
+.space {
+    background-image: url("thumb2.jpg");
+    height: 270px;
+    padding: 15px;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.next {
+    background-image: url("next.jpg");
+    height: 270px;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.prev {
+    background-image: url("pre.jpg");
+    height: 270px;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.feature {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    height: 360px;
+    background-size: 135%;
+    color: white;
+    text-align: left;
+}
+
+#tick-mark {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+}
+
+#tick-mark::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 3px;
+    background-color: #336699;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+#tick-mark::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #336699;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+.protected {
+    text-align: center;
+}
+
+.security,
+.hosting {
+    border: 1px solid green;
+    padding: 10px;
+}
+
+video {
+    height: 200px;
+    width: 260px;
+}
+
+.vid {
+    height: 275px;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.vid .image-moves {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.vid .aboutAgent {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    text-align: left;
+    color: black
+}
+
+.vid .aboutAgent h1 {
+    font-size: 25px;
+}
+
+.details {
+    background-color: rgb(53, 53, 53);
+    text-align: left;
+    height: 250px;
+}
+
+.details h2 {
+    font-size: 25px;
+    color: #32CD32;
+}
+
+.details li {
+    text-decoration: none;
+}
