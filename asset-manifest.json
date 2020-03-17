@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/peterjtshiani/framework2static/css/main.61f03028.chunk.css",
+    "main.js": "/peterjtshiani/framework2static/js/main.32674ffb.chunk.js",
+    "main.js.map": "/peterjtshiani/framework2static/js/main.32674ffb.chunk.js.map",
+    "runtime-main.js": "/peterjtshiani/framework2static/js/runtime-main.e01da2ba.js",
+    "runtime-main.js.map": "/peterjtshiani/framework2static/js/runtime-main.e01da2ba.js.map",
+    "static/js/2.c04bde65.chunk.js": "/peterjtshiani/framework2static/js/2.c04bde65.chunk.js",
+    "static/js/2.c04bde65.chunk.js.map": "/peterjtshiani/framework2static/js/2.c04bde65.chunk.js.map",
+    "index.html": "/peterjtshiani/framework2index.html",
+    "precache-manifest.ec1fc33fe304b497a3a3a3f6514b3a5a.js": "/peterjtshiani/framework2precache-manifest.ec1fc33fe304b497a3a3a3f6514b3a5a.js",
+    "service-worker.js": "/peterjtshiani/framework2service-worker.js",
+    "static/css/main.61f03028.chunk.css.map": "/peterjtshiani/framework2static/css/main.61f03028.chunk.css.map",
+    "static/js/2.c04bde65.chunk.js.LICENSE.txt": "/peterjtshiani/framework2static/js/2.c04bde65.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/peterjtshiani/framework2static/media/thumb2.96e9027e.jpg",
+    "static/media/agent.jpg": "/peterjtshiani/framework2static/media/agent.2e592b08.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e01da2ba.js",
+    "static/js/2.c04bde65.chunk.js",
+    "static/css/main.61f03028.chunk.css",
+    "static/js/main.32674ffb.chunk.js"
+  ]
+}
